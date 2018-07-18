@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  border-bottom-color: "yellow";
+}
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #111;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.footer p{
+  background-color:grey;
+  text-align: right;
+  padding: 10px 16px;
+  color:black solid;
+  border-bottom-left-radius: 2mm;
+  border-bottom-right-radius: 2mm;
+  border-top-left-radius: 2mm;
+  border-top-right-radius: 2mm;
+  border-block-end-style: groove;
+  font-family: 'Franklin Gothic Medium';
+  text-decoration: none;
+}
+.loginsignup{
+  float: right;
+
+}
+.contactus{
+  float:right;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}
+.ftr{
+  text-decoration-color: black;
+}
+.hero{
+  float: right;
+}
+button
+{
+ background-color:white;
+ color: black;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ margin: 2px 1px;
+ padding: 8px 25px;
+ width: -50px;
+ 
+}
+button:hover{
+  background-color:#00ff00;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+logo{
+  width: 250px;
+  height: 70px;
+}
+.herob p{
+  float:center;
+  text-decoration: none;
+  color: orange;
+  padding: 20px 80px;
+}
